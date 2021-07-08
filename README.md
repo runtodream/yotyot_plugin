@@ -1,12 +1,12 @@
 # yotyot_plugin
-#THis is Mc plugin for open crafting table and ender chest GUI.
-##commands :
+## THis is Mc plugin for open crafting table and ender chest GUI.
+### commands :
   //craftingtable
   //enderdhest
  
- ------------
+------------------------------------------------------------------------
  
- ##source (java) : 
+ ### source (java) : 
  
  ```
  package yotyot;
@@ -48,8 +48,9 @@ public boolean onCommand(CommandSender sender, Command cmd, String label, String
 return true;
 }
 }
+```
 
-plugin.yml : 
+### plugin.yml : 
 ```
 name: yotyot
 version: 1.0
@@ -59,6 +60,6 @@ commands:
   /craftingtable:
   /enderchest:
 ```
- ------------
+------------------------------------------------------------------------
  
- ###maker : yot_yot(minecraft nickname)
+ ### maker : yot_yot(minecraft nickname)
